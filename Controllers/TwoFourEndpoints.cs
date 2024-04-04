@@ -11,14 +11,24 @@ namespace BryanAMiniChallenge2_EndpointMVC.Controllers
     public class TwoFourEndpoints : ControllerBase
     {
 
-        [HttpGet("/sumOfTwo")]
+        [HttpGet("/sumEndpoint")]
         public string sumEndpoint(double a, double b){
             
-            double sum = a+ b;
-            string result = "The sum of " 
+            double sum = a + b;
+
+            string result = "The sum of " +  a  + " and " +  b + " is " + sum + "."; 
             return result;
         }
+
+
+
+    [HttpGet("/nameWakeUp")]
+
+    public string nameWakeUp(string name string wakeUp){
+        string 
     }
+    }
+}
 
       
 
