@@ -10,14 +10,17 @@ namespace BryanAMiniChallenge2_EndpointMVC.Controllers
     [Route("api/[controller]")]
     public class TwoFourEndpoints : ControllerBase
     {
-    [HttpGet]
-        public string helloDarknessMyOldFriend( string name){
-            return "Hello " + name;
+
+        [HttpGet("/sumOfTwo")]
+        public string sumEndpoint(double a, double b){
+            
+            double sum = a+ b;
+            string result = "The sum of " 
+            return result;
         }
-                }
-}
+    }
 
-
+      
 
 // Endpoint that accepts 2 inputs and returns their sum
 
