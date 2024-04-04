@@ -11,12 +11,12 @@ namespace BryanAMiniChallenge2_EndpointMVC.Controllers
     public class TwoFourEndpoints : ControllerBase
     {
     [HttpGet]
-        public string GreetingsToYou(string name)
-        {
-            return "Hello " + name + "!";
+        public string SayHi(){
+            return "Hi";
+        }
                 }
 }
-}
+
 
 
 // Endpoint that accepts 2 inputs and returns their sum
