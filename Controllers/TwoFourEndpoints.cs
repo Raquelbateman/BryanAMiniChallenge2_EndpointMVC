@@ -29,7 +29,34 @@ namespace BryanAMiniChallenge2_EndpointMVC.Controllers
         string result = "Hello " + name + "!" + " You woke up at " + wakeUp + " today!" + " Time is money hunnay!";
         return result; 
     }
+
+    [HttpGet("/greaterOrLesser")]
+
+    public string greaterOrLesser(double a, double b){
+
+       string firstNum = "";
+       string secondNum = "";
+
+       if (a > b){
+                firstNum = a + " is greater than " + b + "!";
+                secondNum = b + " is less than " + a + "!";
+            }
+             else if (b > a){
+                firstNum = b + " is greater than " + a + "!";
+                secondNum = a + " is less than " + b + "!";   
+            }
+
+            else {
+                firstNum = b + " is equal to " + a + "!";
+                secondNum = a + " is equal to " + b + "!";
+            }
+    
+            string statement = firstNum  + "\n" + secondNum;
+            return statement;
+
+
     }
+}
 }
 
       
