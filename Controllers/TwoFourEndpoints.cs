@@ -11,8 +11,8 @@ namespace BryanAMiniChallenge2_EndpointMVC.Controllers
     public class TwoFourEndpoints : ControllerBase
     {
     [HttpGet]
-        public string SayHi(){
-            return "Hi";
+        public string SayHi( string name){
+            return "Hi " + name;
         }
                 }
 }
