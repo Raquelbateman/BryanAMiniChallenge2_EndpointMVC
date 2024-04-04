@@ -24,8 +24,10 @@ namespace BryanAMiniChallenge2_EndpointMVC.Controllers
 
     [HttpGet("/nameWakeUp")]
 
-    public string nameWakeUp(string name string wakeUp){
-        string 
+    public string nameWakeUp(string name, string wakeUp){
+        
+        string result = "Hello " + name + "!" + " You woke up at " + wakeUp + " today!" + " Time is money hunnay!";
+        return result; 
     }
     }
 }
