@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BryanAMiniChallenge2_EndpointMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9db67eb5880407d8fc7109303a4fe62135aa30ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90491e2d132194eebb1cb4ef64801b1a13088fc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BryanAMiniChallenge2_EndpointMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BryanAMiniChallenge2_EndpointMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
